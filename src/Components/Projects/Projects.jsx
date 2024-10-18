@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import yacht from '../../assets/webs/yacht.png';
 import centerdetailmallorca from '../../assets/webs/centerdetailmallorca.png';
+import centerdetail from '../../assets/webs/centerdetail.png';
 import polo from '../../assets/webs/polo.png';
 import looney from '../../assets/webs/looney.png';
 import medicalcity from '../../assets/webs/medicalcity.png';
@@ -21,6 +22,7 @@ function Projects() {
   const projects = [
     { name: 'E2 Yacht Services', image: yacht, web: 'https://www.e2yachtservices.com' },
     { name: 'Center Detail Mallorca', image: centerdetailmallorca, web: 'https://www.centerdetailmallorca.com' },
+    { name: 'Center Detail Franquicias', image: centerdetail, web: 'https://www.centerdetail.com' },
     { name: 'Autos Polo', image: polo, web: 'https://www.autospolo.com' },
     { name: 'The Looney Studio', image: looney, web: 'https://www.thelooneystudio.com' },
     { name: 'Medical City', image: medicalcity, web: 'https://medicalcitypv.com' },

@@ -18,7 +18,7 @@ function Hero() {
         <source src={video} type="video/mp4" />
         Tu navegador no soporta el video.
       </video>
-      <h1 className='animate__animated animate__fadeInDownBig'>I'm Just Webs</h1>
+      <h1 className='animate__animated animate__fadeInDownBig' onClick={handleRedirect}>I'm Just Webs</h1>
     </div>
   )
 }

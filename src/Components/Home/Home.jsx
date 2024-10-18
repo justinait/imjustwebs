@@ -1,6 +1,6 @@
 import React from 'react'
-import Projects from '../Projects/projects'
 import Navbar from '../Navbar/Navbar'
+import Projects from '../Projects/projects'
 
 function Home() {
   return (
