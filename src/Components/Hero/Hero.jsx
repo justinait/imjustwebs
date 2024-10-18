@@ -1,5 +1,5 @@
 import React from 'react'
-import video from '../../assets/hero2.mp4'
+import video from '../../assets/hero.mp4'
 import './Hero.css'
 import 'animate.css';
 

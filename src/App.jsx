@@ -8,7 +8,6 @@ import Navbar from "./Components/Navbar/Navbar";
 function App() {
   return (
     <BrowserRouter>
-      {/* <Navbar/> */}
       <Routes className='appRoutes'>
 
         <Route path='/' element={< Hero />} />

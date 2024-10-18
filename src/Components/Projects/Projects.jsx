@@ -56,7 +56,7 @@ function Projects() {
           }
         }
       }
-    }, 40); // Ajusta la velocidad del desplazamiento cambiando el intervalo
+    }, 50); // Ajusta la velocidad del desplazamiento cambiando el intervalo
 
     const pauseScrolling = () => setIsPaused(true);
     const resumeScrolling = () => setIsPaused(false);
