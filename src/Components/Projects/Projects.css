@@ -1,4 +1,4 @@
-.projectMockup {
+/* .projectMockup {
     width: 100%;
 }
 .projectText {
@@ -12,4 +12,39 @@
 }
 .projectContainer {
     position: relative;
+} */
+/* Contenedor principal con scroll horizontal */
+.projectBoxContainer {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* Suavizar el scroll en iOS */
+    height: 100vh; /* Ajusta la altura como prefieras */
+    align-items: center;
 }
+  
+.projectContainer {
+    scroll-snap-align: center;
+    flex: 0 0 60vw;
+    margin: 0 15px;
+    text-align: center;
+}
+  
+  .projectMockup {
+    width: 100%;
+    height: auto;
+  }
+  
+  .projectText {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+  }
+  
+  /* Remover las barras de scroll visibles */
+  .projectBoxContainer::-webkit-scrollbar {
+    display: none;
+  }
+  
