@@ -13,7 +13,7 @@ import jorgelina from '../../assets/webs/jorgelina.png';
 import regia from '../../assets/webs/regia.png';
 import './Projects.css';
 
-function Projects() {
+function projects() {
   const row1Ref = useRef(null);
   const row2Ref = useRef(null);
   const [isPaused, setIsPaused] = useState(false);
@@ -99,4 +99,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default projects;
