@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
-import Projects from '../Projects/projects'
+import Freelance from '../Freelance/Freelance'
 
 function Home() {
   return (
     <>
       <Navbar/>
-      <Projects />
+      <Freelance />
     </>
   )
 }
