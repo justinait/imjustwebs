@@ -2,4 +2,9 @@ body {
     margin: 0;
     font-family: 'Aref Ruqaa Ink', serif;
     font-family: 'Yusei Magic', sans-serif;
+    overflow-x: hidden;
 }
+* {
+    box-sizing: border-box; /* Esto ayuda a mantener el tamaño controlado */
+}
+  

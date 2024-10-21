@@ -14,7 +14,6 @@
 
 .mockupWrapper {
   min-width: 30%;
-  margin: 0 10px;
   cursor: pointer;
   transition: transform 0.3s;
 }
@@ -75,9 +74,15 @@
 } */
 .mockupFrame {
   position: relative; 
-  width: 90%; 
-  height: 80%; 
+  width: 313px; 
+  height: 580px; 
+  
+  width: 400px;
+  height: 700px;
+  transform: scale(0.9);
   overflow: hidden; 
+  display: flex;
+  justify-content: center;
 }
 
 .mockupFrame::before { /* Agregar un pseudo-elemento para la imagen de fondo */
@@ -96,11 +101,17 @@
 }
 
 #projectIframe {
-  width: 94%;
-  height: 94%;
+  width: 100%;
+  height: 100%;
   border: none;
   z-index: 1;
   border-radius: 35px;
+  overflow: hidden;
+  max-width: 100%;
+
+  width: 360px;
+  height: 710px;
+  transform: scale(0.9)
 }
 
 
@@ -124,12 +135,13 @@
   transform: scale(1);
 }
 
-.iframeWrapper {
-  width: 100%;
-  height: 100%;
-  border-radius: 20px; /* Redondear los bordes */
-  overflow: hidden; /* Ocultar el overflow */
+/* .iframeWrapper {
+  width: 284px;
+  height: 568px;
+  transform: scale(0.9);
+  border-radius: 20px;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */

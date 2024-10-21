@@ -62,9 +62,9 @@ function Freelance() {
       {isVisible && (
         <div className={`iframeContainer ${isVisible ? "visible" : ""}`}>
           <div className="mockupFrame">
-            <div className="iframeWrapper"> {/* Nuevo contenedor */}
+            {/* <div className="iframeWrapper"> */}
               <iframe id="projectIframe" src={iframeUrl} frameBorder="0"></iframe>
-            </div>
+            {/* </div> */}
             <button id="closeIframe" onClick={closeIframe}>
               X
             </button>
