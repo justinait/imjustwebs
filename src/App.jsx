@@ -3,7 +3,7 @@ import Hero from "./Components/Hero/Hero"
 import Home from "./Components/Home/Home";
 import '@fontsource/aref-ruqaa-ink';
 import '@fontsource/yusei-magic';
-import Navbar from "./Components/Navbar/Navbar";
+import '@fontsource-variable/red-hat-display';
 
 function App() {
   return (

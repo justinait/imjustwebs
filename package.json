@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/red-hat-display": "^5.1.0",
     "@fontsource/aref-ruqaa-ink": "^5.1.0",
     "@fontsource/yusei-magic": "^5.1.0",
     "animate.css": "^4.1.1",
