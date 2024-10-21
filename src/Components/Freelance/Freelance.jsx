@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Freelance.css';
 
 // Importa tus imágenes aquí
@@ -43,7 +43,8 @@ function Freelance() {
     setIsVisible(false);
     setTimeout(() => setIframeUrl(""), 500);
   };
-
+  
+  
   return (
     <div className="carouselContainer">
       <div className="carousel">
@@ -61,7 +62,9 @@ function Freelance() {
       {isVisible && (
         <div className={`iframeContainer ${isVisible ? "visible" : ""}`}>
           <div className="mockupFrame">
-            <iframe id="projectIframe" src={iframeUrl} frameBorder="0"></iframe>
+            <div className="iframeWrapper"> {/* Nuevo contenedor */}
+              <iframe id="projectIframe" src={iframeUrl} frameBorder="0"></iframe>
+            </div>
             <button id="closeIframe" onClick={closeIframe}>
               X
             </button>

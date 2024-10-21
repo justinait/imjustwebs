@@ -46,14 +46,14 @@
 }
 
 .mockupFrame {
-  width: 90%; /* Ajusta el ancho según el mockup vacío */
-  height: 80%; /* Ajusta la altura del mockup */
-  position: relative; /* Para permitir que el iframe se posicione dentro */
-  overflow: hidden; /* Para que el iframe no sobresalga */
-  background-image: url('/src/assets/webs/mockupblanco.png'); /* Tu mockup vacío */
-  background-size: contain; /* Para que el mockup se ajuste al contenedor */
-  background-repeat: no-repeat; /* No repetir la imagen */
-  background-position: center; /* Centra la imagen del mockup */
+  width: 90%; 
+  height: 80%; 
+  position: relative; 
+  overflow: hidden; 
+  background-image: url('/src/assets/webs/mockupblanco.png'); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,9 +66,12 @@
   height: 100%; 
   border: none; 
   z-index: 1;
-  transform-origin: center;
-  transform: scale(0.9); /* Ajusta el valor según cómo quieras escalar */
+  transform-origin: 52%;
+  transform: scale(0.92); /* Ajusta el valor según cómo quieras escalar */
   overflow: hidden !important;
+
+  transform-origin: 65%;
+  transform: scale(0.905);
 }
 
 #closeIframe {
@@ -87,4 +90,14 @@
 .visible {
   opacity: 1;
   transform: scale(1);
+}
+
+.iframeWrapper {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px; /* Redondear los bordes */
+  overflow: hidden; /* Ocultar el overflow */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
