@@ -117,7 +117,7 @@ function About() {
       
       </div>
       
-      <div>
+      <div className='formContainerDiv'>
         <h4>¿Tenés un proyecto en mente? <strong> Hablemos</strong></h4>
 
         <form ref={form} onSubmit={sendEmailForm} className='formContainer'>
@@ -130,10 +130,8 @@ function About() {
         
         <textarea name="message" placeholder='Mensaje' value={input['message'] ? input['message'].value : ''} className='inputForm messageForm'  onChange={handleInputChange}/>
         
-        <div>
-          <input type="submit" value="Enviar" className='formSendButton'/>
-        </div>
-
+        <input type="submit" value="Enviar" className='formSendButton'/>
+        
       </form>
       </div>
     </div>
