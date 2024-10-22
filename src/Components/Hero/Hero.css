@@ -4,6 +4,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .heroVideoContainer video {
     height: 100vh;
@@ -25,4 +27,16 @@ h1 {
 
 .animate__animated.animate__fadeInDownBig {
     --animate-duration: 3s;
+}
+.navbarHero {
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin-bottom: 20px;
+}
+.navbarHero a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
 }

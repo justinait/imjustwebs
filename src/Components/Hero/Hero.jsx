@@ -2,6 +2,7 @@ import React from 'react'
 import video from '../../assets/hero.mp4'
 import './Hero.css'
 import 'animate.css';
+import { Link } from 'react-router-dom';
 
 function Hero() {
   
@@ -18,7 +19,15 @@ function Hero() {
         <source src={video} type="video/mp4" />
         Tu navegador no soporta el video.
       </video>
+      
+      <div>      </div>
+      
       <h1 className='animate__animated animate__fadeInDownBig' onClick={handleRedirect}>I'm Just Webs</h1>
+      
+      <div className='navbarHero'>
+        <Link to='/contact'>CONTACTO</Link>
+        <Link to='/home'>PROYECTOS</Link>
+      </div>
     </div>
   )
 }
