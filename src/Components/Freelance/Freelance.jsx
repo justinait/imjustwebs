@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './Freelance.css';
 
 // Importa tus imágenes aquí
@@ -18,6 +18,7 @@ import regia from '../../assets/webs/regia.png';
 function Freelance() {
   const [iframeUrl, setIframeUrl] = useState("");
   const [isVisible, setIsVisible] = useState(false);
+  const projectsRef = useRef([]);
 
   const projects = [
     { name: 'E2 Yacht Services', image: yacht, web: 'https://www.e2yachtservices.com' },
@@ -43,13 +44,37 @@ function Freelance() {
     setIsVisible(false);
     setTimeout(() => setIframeUrl(""), 500);
   };
-  
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY + window.innerHeight; // Posición del scroll
+    projectsRef.current.forEach((element) => {
+      const elementPosition = element.getBoundingClientRect().top + window.scrollY; // Posición del elemento
+      if (scrollPosition > elementPosition + 100) { // Ajusta el 100 según necesites
+        element.classList.add('mockupVisible');
+      }
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    
+    // Aplicar la clase visible a los primeros dos elementos al cargar
+    projectsRef.current.forEach((element, index) => {
+      if (index < 4 && element) {
+        element.classList.add('visible');
+      }
+    });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   
   return (
     <div className="carouselContainer">
       <div className="carousel">
         {projects.map((e, i) => (
-          <div className="mockupWrapper" key={i} onClick={() => openIframe(e.web)}>
+          <div className="mockupWrapper" key={i} onClick={() => openIframe(e.web)} ref={(el) => (projectsRef.current[i] = el)}>
             <img
               src={e.image}
               alt={`Proyecto ${e.name}`}

@@ -19,7 +19,13 @@
   width: 46%;
   /* margin: 10px; */
   cursor: pointer;
-  transition: transform 0.3s;
+  opacity: 0; 
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out; 
+}
+.mockupVisible {
+  opacity: 1;
+  transform: translateY(0); 
 }
 
 .mockupWrapper:hover {
