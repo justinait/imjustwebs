@@ -10,9 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
     "@fontsource-variable/red-hat-display": "^5.1.0",
     "@fontsource/aref-ruqaa-ink": "^5.1.0",
     "@fontsource/yusei-magic": "^5.1.0",
+    "@mui/icons-material": "^6.1.5",
+    "@mui/material": "^6.1.5",
     "animate.css": "^4.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

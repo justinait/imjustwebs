@@ -22,9 +22,9 @@ function Hero() {
       
       <div>      </div>
       
-      <h1 className='animate__animated animate__fadeInDownBig' onClick={handleRedirect}>I'm Just Webs</h1>
+      <h1 className='animate__animated animate__fadeInDown' onClick={handleRedirect}>I'm Just Webs</h1>
       
-      <div className='navbarHero'>
+      <div className='navbarHero animate__animated animate__fadeInDown'>
         <Link to='/contact'>CONTACTO</Link>
         <Link to='/home'>PROYECTOS</Link>
       </div>

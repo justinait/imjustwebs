@@ -25,8 +25,8 @@ h1 {
     font-family: 'Yusei Magic', sans-serif;
 }
 
-.animate__animated.animate__fadeInDownBig {
-    --animate-duration: 3s;
+.animate__animated.animate__fadeInDown {
+    --animate-duration: 1.5s;
 }
 .navbarHero {
     z-index: 5;

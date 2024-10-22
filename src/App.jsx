@@ -5,6 +5,7 @@ import '@fontsource/aref-ruqaa-ink';
 import '@fontsource/yusei-magic';
 import '@fontsource-variable/red-hat-display';
 import Links from "./Components/Links/Links";
+import About from "./Components/About/About";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={< Hero />} />
         
         <Route path='/home' element={< Home />} />
+        <Route path='/contact' element={< About />} />
 
       </Routes>
       {/* <Links /> */}
