@@ -1,0 +1,11 @@
+.homeContainer{
+    margin: 15px;
+}
+.homeText {
+    margin: 0;
+    font-size: 14px;
+}
+.homeBoxText {
+    margin: 10% 0;
+    text-align: center;
+}
