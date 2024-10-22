@@ -6,6 +6,7 @@ function Navbar() {
   return (
     <div style={{textAlign:'center'}}>
       <Link to='/' className='imjustwebsNavbar'>I'm Just Webs</Link>
+      <p>contacto</p>
     </div>
   )
 }
