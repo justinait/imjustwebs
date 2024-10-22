@@ -65,7 +65,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('/src/assets/webs/mockupblanco.png'); 
+  background-image: url('/src/assets/webs/mockupblanco2.png'); 
   background-size: contain; 
   background-repeat: no-repeat; 
   background-position: center; 
@@ -76,11 +76,14 @@
 #projectIframe {
   width: 100%;
   height: 100%;
+  width: 333px;
+  height: 640px;
+  margin-top: 40px;
   border: none;
   z-index: 1;
   border-radius: 35px;
+  border-radius: 0 0 35px 35px;
   overflow: hidden;
-  max-width: 100%;
 }
 
 #closeIframe {
