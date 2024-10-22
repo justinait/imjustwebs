@@ -12,6 +12,7 @@ function Home() {
         <p className='homeText'>Hacé clic en el teléfono y navega por la página.</p>
       </div>
       <Freelance />
+      <p style={{textAlign: 'center'}}>Developed by <strong>I'm Just Webs</strong> </p>
     </div>
   )
 }

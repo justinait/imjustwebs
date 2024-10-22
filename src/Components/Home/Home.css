@@ -1,5 +1,7 @@
 .homeContainer{
     margin: 15px;
+    background-image: url('/fondo.jpg');
+    background-size: contain;
 }
 .homeText {
     margin: 0;

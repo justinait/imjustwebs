@@ -88,7 +88,7 @@ function About() {
     );
   };
   return (
-    <div className=''>
+    <div className='aboutContainer'>
       <Navbar/>
       <p className='aboutText'>
         Desde Argentina, me dedico a desarrollar portfolios personalizados, páginas corporativas y 
@@ -134,6 +134,8 @@ function About() {
         
       </form>
       </div>
+      <p style={{textAlign: 'center'}}>Developed by <strong>I'm Just Webs</strong> </p>
+
     </div>
   )
 }
