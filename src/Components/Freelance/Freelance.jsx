@@ -1,7 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Freelance.css';
-
-// Importa tus imágenes aquí
 import yacht from '../../assets/webs/yacht.png';
 import centerdetailmallorca from '../../assets/webs/centerdetailmallorca.png';
 import centerdetail from '../../assets/webs/centerdetail.png';
@@ -79,6 +77,7 @@ function Freelance() {
               src={e.image}
               alt={`Proyecto ${e.name}`}
               className="mockupImage"
+              loading='lazy'
             />
           </div>
         ))}
@@ -87,12 +86,10 @@ function Freelance() {
       {isVisible && (
         <div className={`iframeContainer ${isVisible ? "visible" : ""}`}>
           <div className="mockupFrame">
-            {/* <div className="iframeWrapper"> */}
-              <iframe id="projectIframe" src={iframeUrl} frameBorder="0"></iframe>
-            {/* </div> */}
-            <button id="closeIframe" onClick={closeIframe}>
-              X
-            </button>
+            {iframeUrl && (
+              <iframe id="projectIframe" src={iframeUrl} frameBorder="0" loading="lazy"></iframe>
+            )}
+            <button id="closeIframe" onClick={closeIframe}>              X            </button>
           </div>
         </div>
       )}
