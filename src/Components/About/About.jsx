@@ -109,11 +109,13 @@ function About() {
           <LinkedInIcon className='socialMediaIcon' fontSize='large' />
         </a>
       
-        <EmailIcon 
-          onClick={() => {          navigator.clipboard.writeText('justiiturraspe@gmail.com')        }}
-          className='socialMediaIcon'
-          fontSize='large'
-        />
+        <a href="mailto:justiiturraspe@gmail.com" rel='noopener noreferrer' target='_blank' className='emailFooter'>
+          <EmailIcon 
+            onClick={() => {          navigator.clipboard.writeText('justiiturraspe@gmail.com')        }}
+            className='socialMediaIcon'
+            fontSize='large'
+          />
+        </a>
       
       </div>
       
