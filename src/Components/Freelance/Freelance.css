@@ -127,12 +127,8 @@
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
   }
-  .carousel::-webkit-scrollbar {
-    display: none;
-  }
   .mockupWrapper {
-    flex: 0 0 20%;
-    max-width: 20%;
+    flex: 0 0 19%;
     opacity: 1;
   }
 }
