@@ -112,23 +112,41 @@ h4 {
     background-color: #2c2c2c;
 }
 
-@media (min-width: 639px) {
+@media (min-width: 700px) {
+    .aboutText {
+        font-size: 18.5px;
+    }
+    .socialMedia {
+        padding: 0px 19%;
+    }
+    .socialMedia p {
+        font-size: 19px;
+    }
+    h4 {
+        font-size: 19px;
+    }
     .inputForm {
         height: 23.25px;
-        font-size: 15px;
+        border-radius: 12px;
+        font-size: 17px;
         padding: 4% 4%;
     }
-    .messageForm {
-        height: 150px !important;
-        /* border-radius: px; */
-    }
     .formSendButton{
-        font-size: 11px;
+        font-size: 19px;
+        left: 34%;    
+        width: 90px;
+        height: 45px;
     }
     .modal-body {
         font-size: 13px;
         margin-top: -4%;
     }
+    .formContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        
 }
 
 @media (min-width: 1023px) {

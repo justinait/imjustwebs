@@ -11,3 +11,15 @@
     margin: 10% 0;
     text-align: center;
 }
+
+@media(min-width:700px) {
+    
+    .homeText {
+        margin: 0;
+        font-size: 18px;
+    }
+    .homeBoxText {
+        margin: 5% 0;
+        text-align: center;
+    }
+}

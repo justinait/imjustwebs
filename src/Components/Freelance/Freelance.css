@@ -112,8 +112,13 @@
   transform: scale(1);
 }
 
+@media(min-width:700px) {
+  .mockupWrapper {
+    width: 32%;
+  }
+}
 /* Desktop Styles */
-@media (min-width: 769px) {
+@media (min-width: 1000px) {
   .carousel {
     display: flex; /* Muestra el carrusel en desktop */
     flex-wrap: nowrap;
