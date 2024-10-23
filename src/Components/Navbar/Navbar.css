@@ -43,3 +43,12 @@
         font-weight: 500;
     }
 }
+@media(min-width:1000px) {
+    .imjustwebsNavbar {
+        margin-top: 2%;
+        font-size: 86px;
+    }
+    .navbarLinks a {
+        font-size: 28px;
+    }
+}

@@ -146,11 +146,30 @@ h4 {
         flex-direction: column;
         align-items: center;
     }
+    .socialMediaIcon {
+        font-size: 3em !important;
+    }
         
 }
 
-@media (min-width: 1023px) {
-    
+@media (min-width: 1000px) {
+    .aboutText {
+        font-size: 27px;
+    }
+    .socialMedia {
+        padding: 0px 21%;
+        height: 150px;
+    }
+    .socialMedia p {
+        font-size: 24px;
+    }
+    .socialMediaIcon {
+        font-size: 3.5em !important;
+    }
+    h4 {
+        font-size: 27px;
+        margin: 9% 9% 5% 9%;
+    }
     .modal-body {
         font-size: 14px;
         margin-top: -4%;
@@ -159,6 +178,15 @@ h4 {
     .modal-content {
         width: 65vw;
         height: 138px;
+    }
+    .inputForm {
+        font-size: 20px;
+    }
+    .formSendButton {
+        font-size: 26px;
+        left: 34%;
+        width: 110px;
+        height: 50px;
     }
 }
 

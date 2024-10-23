@@ -118,7 +118,7 @@
   }
 }
 /* Desktop Styles */
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .carousel {
     display: flex; /* Muestra el carrusel en desktop */
     flex-wrap: nowrap;

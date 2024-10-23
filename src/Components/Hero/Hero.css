@@ -54,3 +54,15 @@ h1 {
         font-size: 26px;
     }
 }
+@media(min-width:1000px) {
+    
+    h1 {
+        font-size: 80px;
+    }
+    .navbarHero {
+        width: 45vw;
+    }
+    .navbarHero a {
+        font-size: 30px;
+    }
+}
