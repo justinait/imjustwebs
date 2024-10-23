@@ -4,7 +4,6 @@ import Home from "./Components/Home/Home";
 import '@fontsource/aref-ruqaa-ink';
 import '@fontsource/yusei-magic';
 import '@fontsource-variable/red-hat-display';
-import Links from "./Components/Links/Links";
 import About from "./Components/About/About";
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
         <Route path='/contact' element={< About />} />
 
       </Routes>
-      {/* <Links /> */}
     </BrowserRouter>
   )
 }
