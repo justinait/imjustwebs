@@ -117,14 +117,23 @@
     width: 32%;
   }
 }
-/* Desktop Styles */
 @media (min-width: 1200px) {
   .carousel {
-    display: flex; /* Muestra el carrusel en desktop */
+    display: flex;
     flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
   }
-
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
   .mockupWrapper {
-    min-width: 30%; /* Tres columnas en desktop */
+    flex: 0 0 20%;
+    max-width: 20%;
+    margin-right: 20px;
+    opacity: 1;
   }
 }
