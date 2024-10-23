@@ -89,54 +89,58 @@ function About() {
   };
   return (
     <div className='aboutContainer'>
-      <Navbar/>
-      <p className='aboutText'>
-        Desde Argentina, me dedico a desarrollar portfolios personalizados, páginas corporativas y 
-        landing pages que combinan diseño visual y funcionalidad. Trabajo junto a expertos en diseño 
-        para crear soluciones web modernas que ayudan a negocios y profesionales de todo el mundo a destacarse.
-        <br /><br />
-        Con un enfoque en el frontend, uso tecnologías como React JS para desarrollar sitios web 
-        interactivos y adaptables, asegurando una experiencia de usuario fluida y atractiva.
-      </p>
+      <Navbar />
+      <div className='aboutInfo'>
+        <p className='aboutText'>
+          Desde Argentina, me dedico a desarrollar portfolios personalizados, páginas corporativas y 
+          landing pages que combinan diseño visual y funcionalidad. Trabajo junto a expertos en diseño 
+          para crear soluciones web modernas que ayudan a negocios y profesionales de todo el mundo a destacarse.
+          <br /><br />
+          Con un enfoque en el frontend, uso tecnologías como React JS para desarrollar sitios web 
+          interactivos y adaptables, asegurando una experiencia de usuario fluida y atractiva.
+        </p>
 
-      <div className='socialMedia'>
-        <p>Encontrame en:</p>
-        <a href='https://github.com/justinait' target="_blank">
-          <GitHubIcon className='socialMediaIcon' fontSize='large' />
-        </a>
+        <div className='socialMedia'>
+          <p>Encontrame en:</p>
+          <a href='https://github.com/justinait' target="_blank">
+            <GitHubIcon className='socialMediaIcon' fontSize='large' />
+          </a>
 
-        <a href='https://www.linkedin.com/in/justinaiturraspe/' target="_blank">
-          <LinkedInIcon className='socialMediaIcon' fontSize='large' />
-        </a>
-      
-        <a href="mailto:justiiturraspe@gmail.com" rel='noopener noreferrer' target='_blank' className='emailFooter'>
-          <EmailIcon 
-            onClick={() => {          navigator.clipboard.writeText('justiiturraspe@gmail.com')        }}
-            className='socialMediaIcon'
-            fontSize='large'
-          />
-        </a>
-      
+          <a href='https://www.linkedin.com/in/justinaiturraspe/' target="_blank">
+            <LinkedInIcon className='socialMediaIcon' fontSize='large' />
+          </a>
+        
+          <a href="mailto:justiiturraspe@gmail.com" rel='noopener noreferrer' target='_blank' className='emailFooter'>
+            <EmailIcon 
+              onClick={() => {          navigator.clipboard.writeText('justiiturraspe@gmail.com')        }}
+              className='socialMediaIcon'
+              fontSize='large'
+            />
+          </a>
+        
+        </div>
+        
+        <div className='formContainerDiv'>
+          <h4>¿Tenés un proyecto en mente? <strong> Hablemos</strong></h4>
+
+          <form ref={form} onSubmit={sendEmailForm} className='formContainer'>
+          
+          <input type="text" name="user_name" placeholder='Nombre y apellido'  value={input['user_name'] ? input['user_name'].value : ''}  className='inputForm' onChange={handleInputChange} />
+          
+          <input type="email" name="user_email" placeholder='Email' value={input['user_email'] ? input['user_email'].value : ''} className='inputForm' onChange={handleInputChange} />
+
+          <input type="number" name="user_phone" placeholder='Teléfono / Celular' value={input['user_phone'] ? input['user_phone'].value : ''} className='inputForm' onChange={handleInputChange} />
+          
+          <textarea name="message" placeholder='Mensaje' value={input['message'] ? input['message'].value : ''} className='inputForm messageForm'  onChange={handleInputChange}/>
+          
+          <input type="submit" value="Enviar" className='formSendButton'/>
+          
+        </form>
+        </div>
       </div>
-      
-      <div className='formContainerDiv'>
-        <h4>¿Tenés un proyecto en mente? <strong> Hablemos</strong></h4>
 
-        <form ref={form} onSubmit={sendEmailForm} className='formContainer'>
-        
-        <input type="text" name="user_name" placeholder='Nombre y apellido'  value={input['user_name'] ? input['user_name'].value : ''}  className='inputForm' onChange={handleInputChange} />
-        
-        <input type="email" name="user_email" placeholder='Email' value={input['user_email'] ? input['user_email'].value : ''} className='inputForm' onChange={handleInputChange} />
 
-        <input type="number" name="user_phone" placeholder='Teléfono / Celular' value={input['user_phone'] ? input['user_phone'].value : ''} className='inputForm' onChange={handleInputChange} />
-        
-        <textarea name="message" placeholder='Mensaje' value={input['message'] ? input['message'].value : ''} className='inputForm messageForm'  onChange={handleInputChange}/>
-        
-        <input type="submit" value="Enviar" className='formSendButton'/>
-        
-      </form>
-      </div>
-      <p style={{textAlign: 'center'}}>Developed by <strong>I'm Just Webs</strong> </p>
+      <p className='footerAbout' style={{textAlign: 'center'}}>Developed by <strong>I'm Just Webs</strong> </p>
 
     </div>
   )
