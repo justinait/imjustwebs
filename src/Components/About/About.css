@@ -275,18 +275,54 @@ h4 {
     }
 }
 
+@media (min-width: 1400px){
+
+    .aboutText {
+        width: 35%;
+        font-size: 19px;
+        margin: 0;
+        margin-right: 10%;
+    }
+    .socialMedia {
+        width: 100%;
+        margin: 0;
+        margin-top: 4vh;
+    }
+    .formContainerDiv {
+        width: 33%;
+        margin: 0 0 0 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    .formSendButton {        
+        left: 42%;
+        margin-top: 20px;
+    }
+    .socialMedia {
+        padding: 0px 28%;
+    }
+}
 @media (min-width: 1800px){
     .inputForm{
-        border-radius: 35px;
-        font-size: 16px;
-        margin: 0.4%;
-    }
-    .messageForm {
-        border-radius: 50px;
+        height: 50px;
+        margin: 1% 0;
+        font-size: 17px;
     }
     .formSendButton {
-        font-size: 15px;
+        font-size: 20px;
         width: 95px;
         height: 50px;
+    }
+    .aboutText {
+        width: 32%;
+        font-size: 23px;
+        margin: 0;
+        margin-right: 12%;
+    }
+    .formContainerDiv {
+        margin: 0 0 0 12.5%;
+    }
+    h4 {
+        font-size: 23px;
     }
 }

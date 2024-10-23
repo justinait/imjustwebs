@@ -69,3 +69,13 @@
         margin-top: -5.5vh;
     }
 }
+@media(min-width:1400px) {
+    .navbarLinks {
+        width: 80vw;
+    }
+}
+@media(min-width:1800px) {
+    .navbarLinks a{
+        font-size: 21px;
+    }
+}

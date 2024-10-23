@@ -32,3 +32,9 @@
         font-size: 24px;
     }
 }
+@media(min-width:1000px) {
+    
+    .homeText {
+        font-size: 22px;
+    }
+}

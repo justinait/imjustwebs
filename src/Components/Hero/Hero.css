@@ -34,7 +34,6 @@ h1 {
     justify-content: space-between;
     width: 70vw;
     margin-bottom: 20px;
-    /* margin-bottom: 61px; */
 }
 .navbarHero a {
     color: white;
@@ -87,6 +86,18 @@ h1 {
     }
     .navbarHero {
         width: 35vw;
+    }
+    .navbarHero a {
+        font-size: 30px;
+    }
+}
+@media(min-width:1800px) {
+    h1 {
+        font-size: 100px;
+    }
+    .navbarHero {
+        width: 35vw;
+        margin-bottom: 30px;
     }
     .navbarHero a {
         font-size: 30px;
