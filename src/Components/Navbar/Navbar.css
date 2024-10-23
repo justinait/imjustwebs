@@ -52,3 +52,20 @@
         font-size: 28px;
     }
 }
+@media(min-width:1200px) {
+    .imjustwebsNavbar {
+        margin-top: 0%;
+        margin-bottom: 5px;
+        font-size: 80px;
+    }
+    .navbarLinks a {
+        font-size: 18px;
+    }
+    .navbarContainer {
+        margin: 2%;
+    }
+    .navbarLinks {
+        width: 90vw;
+        margin-top: -5.5vh;
+    }
+}

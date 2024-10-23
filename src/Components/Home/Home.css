@@ -25,6 +25,10 @@
 }
 @media(min-width:1000px) {
     
+    .homeBoxText {
+        margin: 4% 0;
+        text-align: center;
+    }
     .homeText {
         font-size: 24px;
     }

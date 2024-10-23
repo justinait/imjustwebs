@@ -66,3 +66,19 @@ h1 {
         font-size: 30px;
     }
 }
+@media(min-width:1200px) {
+    .heroVideoContainer {
+        height: 100vh;
+        flex-direction: column-reverse;
+    }
+    h1 {
+        font-size: 80px;
+    }
+    .navbarHero {
+        width: 45vw;
+        margin-top: 5vh;
+    }
+    .navbarHero a {
+        font-size: 30px;
+    }
+}
