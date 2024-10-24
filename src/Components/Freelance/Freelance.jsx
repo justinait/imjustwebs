@@ -27,10 +27,10 @@ function Freelance() {
     { name: 'Medical City', image: medicalcity, web: 'https://medicalcitypv.com' },
     { name: 'Eleven Pro Cars', image: elevenprocars, web: 'https://elevenprocar.com' },
     { name: 'ParmaShop', image: parma, web: 'https://parmashop.com.ar' },
-    { name: 'CM Broker', image: cmbroker, web: 'https://cmbroker.com.ar/' },
+    // { name: 'CM Broker', image: cmbroker, web: 'https://cmbroker.com.ar/' },
     { name: 'Eskamaq', image: eskamaq, web: 'https://www.eskamaq.com' },
     { name: 'Jorgelina Parkinson', image: jorgelina, web: 'https://www.jorgelinaparkinson.com/' },
-    { name: 'Regia', image: regia, web: 'https://www.regia.ar/' }
+    // { name: 'Regia', image: regia, web: 'https://www.regia.ar/' }
   ];
 
   const openIframe = (url) => {
