@@ -17,9 +17,8 @@ Hola! Soy una desarrolladora frontend apasionada por crear experiencias web intu
 
 ## 💬 Contacto:
 Podés contactarme para colaboraciones:
-- <a href="https://www.imjustwebs.com" target="_blank">Portfolio</a>
-- <a href="https://www.linkedin.com/in/justinaiturraspe" target="_blank">LinkedIn</a>
-
+- [LinkedIn](https://www.linkedin.com/in/justinaiturraspe)
+- [Portfolio](https://www.imjustwebs.com)
 ---
 
 ## 🛠️ Tecnologías, Lenguajes y Herramientas:
