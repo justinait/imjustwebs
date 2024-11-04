@@ -4,11 +4,10 @@
 <img src='/public/imjustwebsdesktop.png'>
 
 ## 🚀 Sobre mí:
-¡Hola! Soy una desarrolladora frontend apasionada por crear experiencias web intuitivas y eficientes. Mi enfoque se centra en desarrollar soluciones elegantes usando tecnologías modernas para brindar interfaces visuales y funcionales de alta calidad.
+Hola! Soy una desarrolladora frontend apasionada por crear experiencias web intuitivas y eficientes. Mi enfoque se centra en desarrollar soluciones elegantes usando tecnologías modernas para brindar interfaces visuales y funcionales de alta calidad.
 
 ### Actualmente:
 - 🌟 Desarrollando aplicaciones web con **React.js** y **Firebase** para proyectos dinámicos y escalables.
-- 💡 Aprendiendo y experimentando con nuevas herramientas y frameworks del ecosistema web.
 - ✨ Explorando el diseño UX/UI para mejorar la experiencia del usuario en mis proyectos.
 
 ### Intereses:
