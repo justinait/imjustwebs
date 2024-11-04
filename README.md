@@ -18,8 +18,8 @@
 
 ## 💬 Contacto:
 Puedes contactarme para colaboraciones, compartir ideas o simplemente para charlar sobre tecnología:
-- [LinkedIn](https://www.linkedin.com/in/justinaiturraspe)
-- [Portfolio](https://www.imjustwebs.com)
+- [LinkedIn](https://www.linkedin.com/in/justinaiturraspe){:target="_blank"}
+- [Portfolio](https://www.imjustwebs.com){:target="_blank"}
 
 ---
 
@@ -30,8 +30,8 @@ Puedes contactarme para colaboraciones, compartir ideas o simplemente para charl
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![Sass](https://img.shields.io/badge/-Sass-CC6699?style=flat&logo=sass&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+
 
 ---
 
