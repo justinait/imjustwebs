@@ -35,4 +35,4 @@ Puedes contactarme para colaboraciones, compartir ideas o simplemente para charl
 
 ---
 
-Gracias por visitar leer hasta acá!
+Gracias por leer hasta acá!
