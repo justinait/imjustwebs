@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Freelance.css';
+import open from '../../assets/webs/open.png';
 import yacht from '../../assets/webs/yacht.png';
 import centerdetailmallorca from '../../assets/webs/centerdetailmallorca.png';
 import centerdetail from '../../assets/webs/centerdetail.png';
@@ -19,6 +20,7 @@ function Freelance() {
   const projectsRef = useRef([]);
 
   const projects = [
+    { name: 'Open Club Paraná', image: open, web: 'https://www.openclubparana.com.ar' },
     { name: 'E2 Yacht Services', image: yacht, web: 'https://www.e2yachtservices.com' },
     { name: 'Center Detail Mallorca', image: centerdetailmallorca, web: 'https://www.centerdetailmallorca.com' },
     { name: 'Center Detail Franquicias', image: centerdetail, web: 'https://www.centerdetail.com' },
@@ -27,10 +29,10 @@ function Freelance() {
     { name: 'Medical City', image: medicalcity, web: 'https://medicalcitypv.com' },
     { name: 'Eleven Pro Cars', image: elevenprocars, web: 'https://elevenprocar.com' },
     { name: 'ParmaShop', image: parma, web: 'https://parmashop.com.ar' },
-    // { name: 'CM Broker', image: cmbroker, web: 'https://cmbroker.com.ar/' },
+    { name: 'CM Broker', image: cmbroker, web: 'https://cmbroker.com.ar/' },
     { name: 'Eskamaq', image: eskamaq, web: 'https://www.eskamaq.com' },
     { name: 'Jorgelina Parkinson', image: jorgelina, web: 'https://www.jorgelinaparkinson.com/' },
-    // { name: 'Regia', image: regia, web: 'https://www.regia.ar/' }
+    { name: 'Regia', image: regia, web: 'https://www.regia.ar/' }
   ];
 
   const openIframe = (url) => {
